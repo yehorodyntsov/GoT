@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  color: #c5af83;
+}
+
+body {
+  margin: 0;
+  background-image: url(darknoise.png);
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+      box-sizing: border-box;
+    }
+
+
+.mainContent {
+  flex-grow: 1;
+
+}
+
+.mainContent .header {
+  
+  font-size: 50%;
+  position: relative;
+
+}
+
+.sidepicture {
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.sidepicture img {
+  max-height: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 50vh;
+}
+
+
